@@ -1,0 +1,492 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="text-white px-6 py-4 flex items-center justify-around sticky top-0 bg-black/80 backdrop-blur-lg">
+
+    <div class="flex items-center gap-2">
+      <div class="bg-red-500 p-2 rounded-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+        </svg>
+      </div>
+      <a class="text-xl font-bold" href="#main">DocGenAI</a>
+    </div>
+
+    <nav class="hidden md:flex items-center gap-10 ">
+      <a href="#HIW" class="text-gray-400 hover:text-white text-sm font-medium">How It Works</a>
+      <a href="#document" class="text-gray-400 hover:text-white text-sm font-medium">Documents</a>
+      <a href="#pricing" class="text-gray-400 hover:text-white text-sm font-medium">Pricing</a>
+    </nav>
+
+    <div class="md:hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="size-6 ">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+      </svg>
+    </div>
+
+    <div class="hidden md:flex cursor-pointer items-center gap-8">
+      <a href="#" class="text-sm font-bold hover:text-gray-300">Sign In</a>
+      <button
+        class="bg-orange-600 hover:bg-orange-800 text-white px-6 py-3 rounded-2xl text-sm font-bold transition-all shadow-lg cursor-pointer">
+        Sign Up
+      </button>
+    </div>
+  </header>
+
+  <main class="bg-black text-white min-h-screen">
+    <section id="main" class="max-w-6xl mx-auto px-6 py-20 flex flex-col lg:flex-row items-center gap-10">
+
+      <div class="flex-1 text-center lg:text-left">
+        <p
+          class="inline-block border border-orange-900 bg-orange-950/20 text-orange-500 text-sm px-4 py-1 rounded-full mb-6">
+          Trusted by 10,000+ companies
+        </p>
+
+        <h1 class="text-5xl md:text-7xl font-bold mb-6">
+          Legal Docs <br>
+          <span class="text-orange-600">in Minutes</span>
+        </h1>
+
+        <p class="text-gray-400 text-lg mb-8 max-w-lg mx-auto lg:mx-0">
+          Generate compliant NDAs, contracts, and policies with AI. Fast, affordable, and simple no lawyer required.
+        </p>
+
+        <div class="flex flex-wrap justify-center lg:justify-start gap-4">
+          <button class="bg-orange-600 px-8 py-3 rounded-lg font-bold cursor-pointer">Start Free</button>
+          <button class="border border-gray-700 px-8 py-3 rounded-lg font-bold cursor-pointer">View Samples</button>
+        </div>
+      </div>
+
+
+      <div class="flex-1 flex justify-center">
+        <div class="bg-zinc-900 border border-zinc-800 p-10 rounded-lg text-center max-w-md">
+          <img src="/Assets/image/robo.png" alt="AI Robot">
+          <p class="text-gray-500 text-xs uppercase">
+            AI-Powered Document Generation
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-black text-white py-20 px-6">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+        <div class="space-y-10">
+          <h2 class="text-5xl font-bold">The Problem</h2>
+
+          <div class="space-y-8">
+
+            <div class="flex gap-4">
+              <span class="text-2xl">💰</span>
+              <div>
+                <h4 class="font-bold">Hiring lawyers is expensive</h4>
+                <p class="text-gray-500 text-sm">Legal services can cost thousands for simple documents</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4">
+              <span class="text-2xl">⏱️</span>
+              <div>
+                <h4 class="font-bold">Legal documents take time</h4>
+                <p class="text-gray-500 text-sm">Traditional drafting takes weeks or months</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4">
+              <span class="text-2xl">📖</span>
+              <div>
+                <h4 class="font-bold">Confusing legal language</h4>
+                <p class="text-gray-500 text-sm">Complex jargon makes documents hard to understand</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-zinc-900/50 border border-zinc-800 p-8 md:p-12 rounded-[2rem]">
+          <h2 class="text-4xl font-bold mb-6">Our Solution</h2>
+          <p class="text-gray-400 mb-8 leading-relaxed">
+            Our AI creates clear, ready-to-use legal documents tailored to your business in minutes.
+            No legal jargon. No confusion. Just documents you can understand and use immediately.
+          </p>
+
+          <ul class="space-y-4">
+            <li class="flex items-center gap-3">
+              <span class="bg-orange-600 text-white text-sm px-1 rounded-full">✓</span>
+              <span class="font-medium">Save thousands on legal fees</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="bg-orange-600 text-white text-sm px-1 rounded-full">✓</span>
+              <span class="font-medium">Get documents in minutes, not months</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="bg-orange-600 text-white text-sm px-1 rounded-full">✓</span>
+              <span class="font-medium">Clear, plain English language</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="HIW" class="bg-black text-white py-20 px-6 text-center">
+      <div class="mb-16">
+        <h2 class="text-5xl font-bold mb-4">How It Works</h2>
+        <p class="text-zinc-500 text-lg">Simple, intuitive, and fast. Three steps to your legal documents.</p>
+      </div>
+
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-6">
+
+        <div
+          class="flex-1 bg-zinc-900/40 border border-zinc-800 p-10 rounded-2xl text-left hover:border-orange-900 transition-colors">
+          <span class="text-orange-900/50 text-6xl font-bold block mb-6">01</span>
+          <h3 class="text-xl font-bold mb-4">Choose a Document Type</h3>
+          <p class="text-zinc-500 text-sm">
+            Select from NDA, Contract, Privacy Policy, and more
+          </p>
+        </div>
+
+        <div
+          class="flex-1 bg-zinc-900/40 border border-zinc-800 p-10 rounded-2xl text-left hover:border-orange-900 transition-colors">
+          <span class="text-orange-900/50 text-6xl font-bold block mb-6">02</span>
+          <h3 class="text-xl font-bold mb-4">Answer Simple Questions</h3>
+          <p class="text-zinc-500 text-sm">
+            Our AI asks just what it needs to know about your business
+          </p>
+        </div>
+
+        <div
+          class="flex-1 bg-zinc-900/40 border border-zinc-800 p-10 rounded-2xl text-left hover:border-orange-900 transition-colors">
+          <span class="text-orange-900/50 text-6xl font-bold block mb-6">03</span>
+          <h3 class="text-xl font-bold mb-4">Download or Edit Instantly</h3>
+          <p class="text-zinc-500 text-sm">
+            Get your document ready to use or customize further
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="document" class="bg-black text-white py-20 px-6 text-center">
+
+      <div class="mb-12">
+        <h2 class="text-5xl font-bold mb-4">Document Templates</h2>
+        <p class="text-zinc-500 text-lg">Professional, attorney-reviewed templates for every business need</p>
+      </div>
+
+      <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+        <div
+          class="bg-zinc-900/40 border border-zinc-800 p-8 rounded-xl flex flex-col items-center justify-center hover:bg-zinc-800/50 transition-all cursor-pointer group">
+          <span class="text-4xl mb-4 group-hover:scale-110 transition-transform">🤝</span>
+          <h3 class="text-sm font-bold">NDA (Mutual)</h3>
+        </div>
+
+        <div
+          class="bg-zinc-900/40 border border-zinc-800 p-8 rounded-xl flex flex-col items-center justify-center hover:bg-zinc-800/50 transition-all cursor-pointer group">
+          <span class="text-4xl mb-4 group-hover:scale-110 transition-transform">🔐</span>
+          <h3 class="text-sm font-bold">NDA (Non-Mutual)</h3>
+        </div>
+
+        <div
+          class="bg-zinc-900/40 border border-zinc-800 p-8 rounded-xl flex flex-col items-center justify-center hover:bg-zinc-800/50 transition-all cursor-pointer group">
+          <span class="text-4xl mb-4 group-hover:scale-110 transition-transform">📋</span>
+          <h3 class="text-sm font-bold">Privacy Policy</h3>
+        </div>
+
+        <div
+          class="bg-zinc-900/40 border border-zinc-800 p-8 rounded-xl flex flex-col items-center justify-center hover:bg-zinc-800/50 transition-all cursor-pointer group">
+          <span class="text-4xl mb-4 group-hover:scale-110 transition-transform">⚖️</span>
+          <h3 class="text-sm font-bold">Terms of Service</h3>
+        </div>
+
+        <div
+          class="bg-zinc-900/40 border border-zinc-800 p-8 rounded-xl flex flex-col items-center justify-center hover:bg-zinc-800/50 transition-all cursor-pointer group">
+          <span class="text-4xl mb-4 group-hover:scale-110 transition-transform">💼</span>
+          <h3 class="text-sm font-bold">Freelance Contract</h3>
+        </div>
+
+
+        <div
+          class="bg-zinc-900/40 border border-zinc-800 p-8 rounded-xl flex flex-col items-center justify-center hover:bg-zinc-800/50 transition-all cursor-pointer group">
+          <span class="text-4xl mb-4 group-hover:scale-110 transition-transform">👥</span>
+          <h3 class="text-sm font-bold">Employment Agreement</h3>
+        </div>
+
+        <div
+          class="bg-zinc-900/40 border border-zinc-800 p-8 rounded-xl flex flex-col items-center justify-center hover:bg-zinc-800/50 transition-all cursor-pointer group">
+          <span class="text-4xl mb-4 group-hover:scale-110 transition-transform">📞</span>
+          <h3 class="text-sm font-bold">Consulting Agreement</h3>
+        </div>
+
+        <div
+          class="bg-zinc-900/40 border border-zinc-800 p-8 rounded-xl flex flex-col items-center justify-center hover:bg-zinc-800/50 transition-all cursor-pointer group">
+          <span class="text-4xl mb-4 group-hover:scale-110 transition-transform">📄</span>
+          <h3 class="text-sm font-bold">Service Agreement</h3>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="bg-[#0a0a0a] text-white py-16 px-6">
+      <div class="max-w-6xl mx-auto space-y-8">
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-[#111111] border border-zinc-800 p-8 rounded-2xl">
+            <span class="text-2xl mb-4 block">🔐</span>
+            <h3 class="font-bold mb-2">Security</h3>
+            <p class="text-zinc-500 text-xs leading-relaxed">Enterprise-grade encryption protects your data</p>
+          </div>
+
+          <div class="bg-[#111111] border border-zinc-800 p-8 rounded-2xl">
+            <span class="text-2xl mb-4 block">🛡️</span>
+            <h3 class="font-bold mb-2">Privacy</h3>
+            <p class="text-zinc-500 text-xs leading-relaxed">Your documents are never shared or retained</p>
+          </div>
+
+          <div class="bg-[#111111] border border-zinc-800 p-8 rounded-2xl text-left">
+            <span class="text-xl font-bold mb-4 block uppercase">US</span>
+            <h3 class="font-bold mb-2">US-Focused</h3>
+            <p class="text-zinc-500 text-xs leading-relaxed">Compliant with all US business regulations</p>
+          </div>
+        </div>
+
+        <div class="bg-[#111111] border border-zinc-800 p-8 rounded-2xl">
+          <h3 class="font-bold mb-4 text-white">Important Disclaimer</h3>
+          <p class="text-zinc-500 text-sm leading-relaxed">
+            This tool does not replace a licensed attorney. Documents generated are for informational purposes.
+            For complex legal matters or specific legal advice, please consult with a qualified attorney.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="pricing" class="bg-black text-white py-20 px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-5xl font-bold mb-4">Simple, Transparent Pricing</h2>
+        <p class="text-zinc-500 text-lg">Choose the plan that fits your needs</p>
+      </div>
+
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+
+        <div class="bg-[#0f0f0f] border border-zinc-800 p-10 rounded-[2rem] flex flex-col h-full">
+          <h3 class="text-2xl font-bold mb-1">Starter</h3>
+          <p class="text-zinc-500 text-sm mb-8">Perfect for getting started</p>
+          <div class="text-5xl font-bold mb-8">$0</div>
+          <button
+            class="w-full py-3 rounded-xl bg-zinc-900 border border-zinc-800 font-bold mb-10 hover:bg-zinc-800 transition-all">
+            Get Started
+          </button>
+          <ul class="space-y-4 text-sm">
+            <li class="flex items-center gap-3"> <span class="text-orange-600">✓</span> 1 document per month</li>
+            <li class="flex items-center gap-3"> <span class="text-orange-600">✓</span> Watermarked documents</li>
+            <li class="flex items-center gap-3"> <span class="text-orange-600">✓</span> Basic templates</li>
+            <li class="flex items-center gap-3"> <span class="text-orange-600">✓</span> Email support</li>
+          </ul>
+        </div>
+
+        <div class="bg-[#0f0f0f] border-2 border-orange-600/50 p-10 rounded-[2rem] flex flex-col h-full relative scale-110">
+          <div
+            class="absolute -top-4 left-1/2 -translate-x-1/2 bg-orange-950/50 text-orange-600 text-[10px] font-bold px-4 py-1.5 rounded-lg border border-orange-900/50 uppercase tracking-widest">
+            Recommended
+          </div>
+          <h3 class="text-2xl font-bold mb-1">Pro</h3>
+          <p class="text-zinc-500 text-sm mb-8">For most small businesses</p>
+          <div class="mb-8">
+            <span class="text-5xl font-bold">$29</span>
+            <span class="text-zinc-500 text-lg">/month</span>
+          </div>
+          <button class="w-full py-4 rounded-xl bg-orange-600 font-bold mb-10 hover:bg-orange-700 transition-all">
+            Start Free Trial
+          </button>
+          <ul class="space-y-4 text-sm">
+            <li class="flex items-center gap-3"> <span class="text-orange-600">✓</span> Unlimited documents</li>
+            <li class="flex items-center gap-3"> <span class="text-orange-600">✓</span> No watermark</li>
+            <li class="flex items-center gap-3"> <span class="text-orange-600">✓</span> Editable formats</li>
+            <li class="flex items-center gap-3"> <span class="text-orange-600">✓</span> Priority support</li>
+            <li class="flex items-center gap-3"> <span class="text-orange-600">✓</span> Advanced templates</li>
+          </ul>
+        </div>
+
+        <div class="bg-[#0f0f0f] border border-zinc-800 p-10 rounded-[2rem] flex flex-col h-full">
+          <h3 class="text-2xl font-bold mb-1">Business</h3>
+          <p class="text-zinc-500 text-sm mb-8">For growing teams</p>
+          <div class="mb-8">
+            <span class="text-5xl font-bold">$79</span>
+            <span class="text-zinc-500 text-lg">/month</span>
+          </div>
+          <button
+            class="w-full py-3 rounded-xl bg-zinc-900 border border-zinc-800 font-bold mb-10 hover:bg-zinc-800 transition-all">
+            Contact Sales
+          </button>
+          <ul class="space-y-4 text-sm">
+            <li class="flex items-center gap-3"> <span class="text-orange-600">✓</span> Everything in Pro</li>
+            <li class="flex items-center gap-3"> <span class="text-orange-600">✓</span> Team access</li>
+            <li class="flex items-center gap-3"> <span class="text-orange-600">✓</span> Client documents</li>
+            <li class="flex items-center gap-3"> <span class="text-orange-600">✓</span> Priority support</li>
+            <li class="flex items-center gap-3"> <span class="text-orange-600">✓</span> Custom templates</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="bg-black text-white py-20 px-6">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">Frequently Asked Questions</h2>
+        <p class="text-zinc-500 text-lg">Everything you need to know</p>
+      </div>
+
+      <div class="max-w-3xl mx-auto space-y-4">
+
+        <div class="border border-zinc-800 rounded-xl overflow-hidden bg-[#0f0f0f]">
+          <button class="w-full flex items-center justify-between p-6 text-left hover:bg-zinc-900 transition-colors">
+            <span class="font-bold text-sm">Is this legally binding?</span>
+            <span class="text-orange-600">▲</span>
+          </button>
+          <div class="px-6 pb-6 text-zinc-400 text-sm leading-relaxed border-t border-zinc-800 pt-6">
+            Yes, documents generated are legally binding when properly executed. However, for complex situations, we
+            recommend having a lawyer review your document.
+          </div>
+        </div>
+
+        <div class="border border-zinc-800 rounded-xl overflow-hidden bg-[#0f0f0f]">
+          <button
+            class="w-full flex items-center justify-between p-6 text-left hover:bg-zinc-900 transition-colors text-sm font-bold text-white">
+            <span>Can I customize documents?</span>
+            <span class="text-orange-600 text-xs">▼</span>
+          </button>
+        </div>
+
+        <div class="border border-zinc-800 rounded-xl overflow-hidden bg-[#0f0f0f]">
+          <button
+            class="w-full flex items-center justify-between p-6 text-left hover:bg-zinc-900 transition-colors text-sm font-bold">
+            <span>Is this US-specific?</span>
+            <span class="text-orange-600 text-xs">▼</span>
+          </button>
+        </div>
+
+        <div class="border border-zinc-800 rounded-xl overflow-hidden bg-[#0f0f0f]">
+          <button
+            class="w-full flex items-center justify-between p-6 text-left hover:bg-zinc-900 transition-colors text-sm font-bold">
+            <span>Can I cancel anytime?</span>
+            <span class="text-orange-600 text-xs">▼</span>
+          </button>
+        </div>
+
+        <div class="border border-zinc-800 rounded-xl overflow-hidden bg-[#0f0f0f]">
+          <button
+            class="w-full flex items-center justify-between p-6 text-left hover:bg-zinc-900 transition-colors text-sm font-bold">
+            <span>How long does generation take?</span>
+            <span class="text-orange-600 text-xs">▼</span>
+          </button>
+        </div>
+
+        <div class="border border-zinc-800 rounded-xl overflow-hidden bg-[#0f0f0f]">
+          <button
+            class="w-full flex items-center justify-between p-6 text-left hover:bg-zinc-900 transition-colors text-sm font-bold">
+            <span>Are my documents private?</span>
+            <span class="text-orange-600 text-xs">▼</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#1a0f0e] text-white py-24 px-6 text-center">
+      <div class="max-w-4xl mx-auto space-y-8">
+
+        <h2 class="text-5xl md:text-7xl font-bold tracking-tight leading-tight">
+          Stop Paying for <br>
+          <span class="text-orange-600">Basic Lawyers.</span>
+        </h2>
+
+        <p class="text-zinc-400 text-lg md:text-xl max-w-lg mx-auto leading-relaxed">
+          Generate professional, compliant legal documents today. No credit card required.
+        </p>
+
+        <div class="pt-4">
+          <button
+            class="bg-orange-600 hover:bg-orange-700 text-white px-10 py-4 rounded-xl font-bold text-lg transition-all shadow-xl shadow-orange-900/20 active:scale-95">
+            Generate Your First Document
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <button class="bg-orange-600 hover:bg-orange-700 text-white px-10 py-4 rounded-xl font-bold text-lg transition-all shadow-xl shadow-orange-900/20 fixed bottom-6 right-6">
+      Download Now
+    </button>
+  </main>
+  
+  <footer class="bg-white text-black py-16 px-6 border-t border-gray-100">
+    <div class="max-w-7xl mx-auto">
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+
+        <div class="space-y-4">
+          <div class="flex items-center gap-2">
+            <div class="bg-orange-600 p-1.5 rounded-lg">
+              <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M13,9V3.5L18.5,9H13M17,19H7V17H17V19M17,15H7V13H17V15M17,11H7V9H11V11H17V11Z" />
+              </svg>
+            </div>
+            <span class="text-xl font-bold tracking-tight">DocGenAI</span>
+          </div>
+          <p class="text-gray-500 text-sm leading-relaxed max-w-xs">
+            AI Legal Document Generator for US businesses
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-6">Product</h4>
+          <ul class="space-y-4 text-sm text-gray-500">
+            <li><a href="#" class="hover:text-orange-600 transition-colors">How It Works</a></li>
+            <li><a href="#" class="hover:text-orange-600 transition-colors">Documents</a></li>
+            <li><a href="#" class="hover:text-orange-600 transition-colors">Pricing</a></li>
+            <li><a href="#" class="hover:text-orange-600 transition-colors">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-6">Company</h4>
+          <ul class="space-y-4 text-sm text-gray-500">
+            <li><a href="#" class="hover:text-orange-600 transition-colors">About</a></li>
+            <li><a href="#" class="hover:text-orange-600 transition-colors">Blog</a></li>
+            <li><a href="#" class="hover:text-orange-600 transition-colors">Contact</a></li>
+            <li><a href="#" class="hover:text-orange-600 transition-colors">Careers</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-6">Legal</h4>
+          <ul class="space-y-4 text-sm text-gray-500">
+            <li><a href="#" class="hover:text-orange-600 transition-colors">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-orange-600 transition-colors">Terms of Service</a></li>
+            <li><a href="#" class="hover:text-orange-600 transition-colors">Disclaimer</a></li>
+            <li><a href="#" class="hover:text-orange-600 transition-colors">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-8 border-t border-gray-100 text-center text-sm text-gray-400 space-y-2">
+        <p>© 2025 DocGenAI. All rights reserved. This tool does not replace a licensed attorney.</p>
+        <p>Developed by <span class="text-gray-800 font-medium">Codescandy</span> • Distributed by <span
+            class="text-gray-800 font-medium">ThemeWagon</span></p>
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>
